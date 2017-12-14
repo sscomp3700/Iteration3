@@ -154,7 +154,7 @@ public class DataAdapter {
                 statement.setDouble(3, line.getQuantity());
                 statement.setDouble(4, line.getCost());
 
-                statement.execute();    // commit to the database;
+                statement.execute();    //commit to the database;
             }
             statement.close();
             return true; // save successfully!
