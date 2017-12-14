@@ -8,6 +8,7 @@ import java.sql.Date;
 public class OrderView extends JFrame{
 
     private JButton toMain = new JButton("Go To Main");
+    private JButton btnReceipt = new JButton("Print Reciept");
     private DefaultTableModel items = new DefaultTableModel(); // store information for the table!
     private JTable tblItems = new JTable(items);
     DataAdapter dataAdapter;
@@ -38,5 +39,6 @@ public class OrderView extends JFrame{
     public JButton getToMain() {
         return toMain;
     }
+    public JButton getBtnReceipt() {return btnReceipt; }
 
 }
