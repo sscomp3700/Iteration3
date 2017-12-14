@@ -8,7 +8,7 @@ public class AddUserView extends JFrame{
 
     private JButton btnLoadUser = new JButton("Load User");
     private JButton btnSaveUser = new JButton("Save User");
-
+//create user view
     public AddUserView() {
         this.setTitle("Add/Edit Users");
         this.setLayout(new BoxLayout(this.getContentPane(), BoxLayout.PAGE_AXIS));
