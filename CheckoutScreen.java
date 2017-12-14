@@ -7,7 +7,7 @@ public class CheckoutScreen extends JFrame {
     private JButton btnAdd = new JButton("Add a new item");
     private JButton btnPay = new JButton("Finish and Pay");
 
-    private DefaultTableModel items = new DefaultTableModel(); // store information for the table!
+    private DefaultTableModel items = new DefaultTableModel(); //store information for the table!
 
     private JTable tblItems = new JTable(items); // null, new String[]{"ProductID", "Product Name", "Price", "Quantity", "Cost"});
     private JLabel labTotal = new JLabel("Total: ");
