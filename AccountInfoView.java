@@ -43,7 +43,7 @@ public class AccountInfoView extends JFrame {
         panelButton.add(btnLoadInfo);
         this.getContentPane().add(panelButton);
 
-        btnChangePassword.addActionListener(new ActionListener() { // when controller is simple, we can declare it on the fly
+        btnChangePassword.addActionListener(new ActionListener() { //when controller is simple, we can declare it on the fly
             public void actionPerformed(ActionEvent e) {
                 Application.getInstance().getPasswordChangeScreen().setVisible(true);            }
         });
