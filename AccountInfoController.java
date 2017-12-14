@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 
 public class AccountInfoController implements ActionListener {
     private AccountInfoView accountInfoView;
-    private DataAdapter dataAdapter; // to save and load product information
+    private DataAdapter dataAdapter; //to save and load product information
 
     public AccountInfoController(AccountInfoView accountInfoView, DataAdapter dataAdapter) {
         this.dataAdapter = dataAdapter;
